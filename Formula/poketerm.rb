@@ -1,8 +1,8 @@
 class Poketerm < Formula
   desc "Terminal Pokédex Collector"
   homepage "https://github.com/chris-wood-mo/poketerm"
-  url "https://github.com/chris-wood-mo/poketerm/releases/tag/brew-test.tar.gz"
-  version "brew-test"
+  url "https://github.com/chris-wood-mo/poketerm/archive/refs/tags/brew-test.tar.gz"
+  version "0.1.0"
 
   def install
     require "etc"

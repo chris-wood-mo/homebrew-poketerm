@@ -5,9 +5,7 @@ class Poketerm < Formula
   version "0.1.0"
 
   def install
-    chdir srcdir do
-      system "bash", "./install.sh"
-    end
+    system "bash", "./install.sh"
   end
 
   def caveats

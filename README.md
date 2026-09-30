@@ -6,7 +6,6 @@ Homebrew tap for Poketerm.
 
 ```bash
 brew tap chris-wood-mo/poketerm
-brew trust chris-wood-mo/poketerm
 brew install poketerm
 ```
 
@@ -21,3 +20,7 @@ brew upgrade poketerm
 ```bash
 brew uninstall poketerm
 ```
+
+## Notes
+
+The formula points at the tagged release tarball for v0.1.0. Once the release tag is published and the checksum is generated, add it to the formula for a fully pinned install.

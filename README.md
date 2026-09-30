@@ -5,7 +5,8 @@ Homebrew tap for Poketerm.
 ## Install
 
 ```bash
-brew tap chriswood/poketerm
+brew tap chris-wood-mo/poketerm
+brew trust chris-wood-mo/poketerm
 brew install poketerm
 ```
 

@@ -1,6 +1,7 @@
 class Poketerm < Formula
   desc "Terminal Pokédex Collector"
-  homepage "https://github.com/chriswood/poketerm"
+  homepage "https://github.com/chris-wood-mo/poketerm"
+  url "https://github.com/chris-wood-mo/poketerm/archive/refs/heads/main.tar.gz"
   version "0.1.0"
 
   def install
